@@ -33,9 +33,9 @@ The rest of the document describes the steps in detail along with some examples.
 
     ![cloning](images/github_clone_or_download.png)
 1. Open a terminal on your computer.
-1. Clone the repository fork using the copied URL and navigate into the directory. This will look something like this:
+1. Clone the repository fork using the copied URL and navigate into the directory. Note the repo contains submodules and `--recurse-submodules` should be added to also clone the submodules into their respective directories. This will look something like this:
     ```
-   git clone https://github.com/<youraccountname>/PX4.git
+   git clone https://github.com/<youraccountname>/PX4.git --recurse-submodules
    cd PX4
    ```
 
