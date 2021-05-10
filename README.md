@@ -177,7 +177,7 @@ One might work in a git repository and might need to add changes to the submodul
     ```
 1. At this point, the remote is pointing to the official repository. You would like the remote to point to your forked repository. Therefore, do the following:
     ```
-    git remote set-url https://github.com/<youraccountname>/sitl_gazebo.git
+    git remote set-url origin https://github.com/<youraccountname>/sitl_gazebo.git
     ```
     This is legal as both the official repository and your forked repository are in the same state.
 1. Add the [sitl_gazebo](https://github.com/esl-sun/sitl_gazebo) upstream as [described above](#adding-a-remote).
